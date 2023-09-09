@@ -164,14 +164,30 @@ document.write("1 PKR convert 10 $ is:" + PKRto$ + "<br>");
 document.write("1 PKR convert 25 Riyal is:" + PKRtoRiyal + "<br>");
 document.write("total currency in PKR is :" + total + "<br>");
 */
+// ? Q No. 10 Write a program to initialize a variable with some number and do arithmetic in following sequence:
+// a. Add 5
+// b. Multiply by 10
+// c. Divide the result by 2
+// Perform all calculations in a single expression
+/*
+var num = 10;
+var result = (num + 5) * 10/2;
+document.write("the total result is:" + result)
+*/
 
+// ? Q No. 11 The Age Calculator: Forgot how old someone is? Calculate it!
+// a. Store the current year in a variable.
+// b. Store their birth year in a variable.
+// c. Calculate their 2 possible ages based on the stored values. Output them to the screen like so: “They are either NN or NN years old".
 
+/* var currentyear = 2023;
+var birthyear = 1993;
+var ages = currentyear - birthyear;
 
-
-
-
-
-
+document.write("Current Year is: " + currentyear + "<br>");
+document.write("Birth Year is: " + birthyear + "<br>");
+document.write("Your Age Is : " + ages + "<br>");
+*/
 
 
 
